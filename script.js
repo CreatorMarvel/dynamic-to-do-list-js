@@ -12,7 +12,7 @@ function addTask() {
 
 		const btnRemove = document.createElement("button");
 		btnRemove.textContent = "Remove";
-		btnRemove.className = "remove-btn";
+		btnRemove.classList.add("remove-btn");
 
 		newItem.appendChild(btnRemove);
 		taskList.appendChild(newItem);
